@@ -3,28 +3,28 @@ section {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background: #000;
+    background: #f0f1eb;
 }
 
 section .bg {
     position: relative;
-    flex-grow: 2;
+    flex-grow: 9;
     display: flex;
     overflow: hidden;
-    transition: ease-in 0.6s;
+    transition: ease-in 0.3s;
 }
 
 section .bg:nth-child(1) {
-    background: url(./../../images/left-bg.png);
+    background: url(./../../images/top.jpg);
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: center;
     background-size: cover;
 }
 
 section .bg:nth-child(2) {
-    background: url(./../../images/right-bg.png);
+    background: url(./../../images/bottom.jpg);
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: center;
     background-size: cover;
 }
 
@@ -42,8 +42,18 @@ section .bg:nth-child(2) {
 
     section .bg:hover {
         opacity: 1;
-        flex-grow: 4;
+        flex-grow: 10;
     }
 
+    section .bg:nth-child(1) {
+        background: url(./../../images/left-bg_02.jpg);
+        background-position: top right;
+        background-size: cover;
+    }
 
+    section .bg:nth-child(2) {
+        background: url(./../../images/right-bg_02.jpg);
+        background-position: top left;
+        background-size: cover;
+    }
 }

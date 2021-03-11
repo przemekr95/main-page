@@ -6,12 +6,7 @@ const Description = (props) => {
     <>
         
 <section className='wrapper-desc'>
-            <h2>{props.name}</h2>
-
-
-                    <a href="http://www.dev.przemekrura.pl/">See more</a>
-
-
+    <a href={props.link}>{props.name}</a>
 </section>
         
     </>
