@@ -8,7 +8,7 @@ const Background = () => {
     <>
         <section className="wrapper-bg">
             <div className="bg">
-                <Description name="Photography" link="http://www.foto.przemekrura.pl/"/>  
+                <Description name="Photographer" link="http://www.foto.przemekrura.pl/"/>  
             </div>
             <div className="bg">
                 <Description name="Frontend Developer" link="http://www.dev.przemekrura.pl/"/> 

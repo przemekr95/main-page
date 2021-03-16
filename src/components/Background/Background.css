@@ -8,7 +8,7 @@ section {
 
 section .bg {
     position: relative;
-    flex-grow: 9;
+    flex-grow: 1;
     display: flex;
     overflow: hidden;
     transition: ease-in 0.3s;
@@ -42,7 +42,7 @@ section .bg:nth-child(2) {
 
     section .bg:hover {
         opacity: 1;
-        flex-grow: 10;
+
     }
 
     section .bg:nth-child(1) {
